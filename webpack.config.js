@@ -27,12 +27,12 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loaders: ['style-loader', 'css-loader'],
+        use: ['style-loader', 'css-loader'],
       }
     ],
   },
   resolve: {
-    extensions: ["*", ".js", ".jsx"],
+    extensions: [".js", ".jsx"],
   },
   devServer: {
     historyApiFallback: true,
