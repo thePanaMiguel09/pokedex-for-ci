@@ -11,3 +11,8 @@ jobs:
     steps:
       - name: Say hello to Miguel
         run: echo "Hello, Miguel Angel!"
+      - name: Say hello to Miguel in Spanish
+        run: |
+          echo Hola Miguel Angel!
+      - name: Display current date
+        run: date
