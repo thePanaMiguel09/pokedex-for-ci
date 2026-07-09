@@ -1,4 +1,4 @@
-name: Say hello
+name: Say hello to Miguel
 
 on:
   push:
@@ -6,12 +6,8 @@ on:
       - main
 
 jobs:
-  hello_world:
-    runs-on: ubuntu-18.04
+  hello-world-miguel:
+    runs-on: ubuntu-latest
     steps:
-      - name: Echo the message
-        run: |
-          echo "Hola midu!"
-      - name: Dime la fecha
-        run: date
-      - run: ls -l
+      - name: Say hello to Miguel
+        run: echo "Hello, Miguel!"
