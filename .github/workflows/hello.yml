@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello to Miguel
-        run: echo "Hello, Miguel!"
+        run: echo "Hello, Miguel Angel!"
